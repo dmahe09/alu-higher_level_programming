@@ -1,2 +1,2 @@
--- full description of table
-SHOW CREATE TABLE first_table;
+-- list all in table
+SELECT * FROM first_table
