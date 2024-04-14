@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """ filtering stuff in here"""
 import sys
@@ -22,4 +21,3 @@ if __name__ == "__main__":
         for each_state in all_states:
             print(each_state)
         cur.close()
-
