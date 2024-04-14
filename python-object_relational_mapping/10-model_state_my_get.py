@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 """print state objects from input"""
 
@@ -19,3 +20,4 @@ if __name__ == "__main__":
             print("Not found")
         else:
             print(f'{state.id}')
+

@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 """ lists all State objects from the database contains a"""
 import sys
@@ -22,3 +23,4 @@ if __name__ == "__main__":
         print("{}: {}".format(state.id, state.name))
 
     session.close()
+

@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 """ filters states according to input """
 import sys
@@ -19,3 +20,4 @@ if __name__ == "__main__":
         for each in all_states:
             print(each)
         cur.close()
+

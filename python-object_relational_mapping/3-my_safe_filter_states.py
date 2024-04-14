@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 """ no injections this time! """
 import sys
@@ -21,3 +22,4 @@ if __name__ == "__main__":
         for name in names:
             print(name)
         cur.close()
+

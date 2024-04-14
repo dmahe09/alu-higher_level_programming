@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 """ no injections this time! """
 import sys
@@ -22,3 +23,4 @@ if __name__ == "__main__":
         cities = cur.fetchall()
         print(", ".join([city[0] for city in cities]))
         cur.close()
+

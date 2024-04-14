@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 """deletes data from database"""
 import sys
@@ -22,3 +23,4 @@ if __name__ == "__main__":
     session.commit()
 
     session.close()
+
