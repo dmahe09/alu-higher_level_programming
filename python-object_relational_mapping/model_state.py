@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 '''class definition of a state'''
 from sqlalchemy.ext.declarative import declarative_base
@@ -11,4 +12,3 @@ class State(Base):
 
     id = Column(Integer, primary_key=True, autoincrement=True, nullable=False)
     name = Column(String(128), nullable=False)
-
